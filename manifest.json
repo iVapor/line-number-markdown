@@ -2,7 +2,7 @@
   "name": "Line Number Markdown",
   "version": "1.0",
   "description": "Show line number in Markdown code block.",
-  "permissions": ["activeTab", "declarativeContent", "storage"],
+  "permissions": ["declarativeContent"],
   "background": {
     "scripts": ["hotReload.js"]
   },
