@@ -1,10 +1,4 @@
-
-
-
 const __main = () => {
-    console.log('in main')
-    log('in main')
-
     setTimeout(() => {
         (function() {
             var pre = document.getElementsByTagName('pre'),
@@ -19,11 +13,7 @@ const __main = () => {
             }
         })();
     }, 1000)
-    document.addEventListener('DOMContentLoaded', (event) => {
-        console.log('DOM fully loaded and parsed'); // 译者注："DOM完全加载以及解析"
-    });
+
 }
-
-
 
 __main()
